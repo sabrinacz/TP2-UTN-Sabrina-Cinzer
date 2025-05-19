@@ -1,0 +1,39 @@
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 60px;
+  right: 15vw;
+  background:#fff;
+  border:1px solid var(--border-color);
+  color:var(--text-color);
+  padding: 14px 24px;
+  font-size: 1rem;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: fadeIn 0.3s;
+  opacity: 1;
+}
+
+.notification-container.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.notification-message {
+  color:var(--success-text-color);
+  font-weight: 600;
+}
+
+.notification-product {
+  display:flex;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px);}
+  to { opacity: 1; transform: translateY(0);}
+}

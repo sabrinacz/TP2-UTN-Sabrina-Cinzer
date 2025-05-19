@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Pelusín",
+        "price": 15300,
+        "oldprice": 18000,
+        "img": "https://i.ibb.co/Ndr9dfS3/Pet5.png",
+        "stock": 3,
+        "description": "<div class='maindesc'><p>Pelusín tiene carita de <i>'yo no fui</i> y se esconde entre almohadones. Le encanta que le hagan upa y se lleva bien con mascotas, pero no con pájaros. Es como un pedacito de nube con patitas. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    },
+    {
+        "id": 2,
+        "title": "Pompón",
+        "price": 11700,
+        "oldprice": 13000,
+        "img": "https://i.ibb.co/1t35gwKv/Pet3.png",
+        "stock": 10,
+        "description": "<div class='maindesc'><p>Pompón es pura suavidad. Le gusta dormir la siesta en lugares tibios y no se despega de tu almohada. Tiene la carita y la panza redondita, ideal para abrazar cuando necesitás un mimo. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    },
+    {
+        "id": 3,
+        "title": "Chispa",
+        "price": 12600,
+        "oldprice": 14000,
+        "img": "https://i.ibb.co/35NS1Yzz/Pet1.png",
+        "stock": 20,
+        "description": "<div class='maindesc'><p>Chispa no duerme si no lo obligás, tiene energía infinita y siempre quiere estar en el bolsillo de alguien. Ideal para acompañarte en días de bajón o reuniones de Zoom que podrían haber sido un mail. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    },
+    {
+        "id": 4,
+        "title": "Rogelio",
+        "price": 15300,
+        "oldprice": 18000,
+        "img": "https://i.ibb.co/Fkmc8Q0n/Pet2.png",
+        "stock": 4,
+        "description": "<div class='maindesc'><p>Rogelio no está seguro de por qué existe, pero se lo toma con calma. Tiene carita de “recién me despierto” todo el día, y eso lo hace aún más querible. Se acomoda en cualquier rincón y no te pide nada. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    },
+    {
+        "id": 5,
+        "title": "Lunfa",
+        "price": 11700,
+        "oldprice": 13000,
+        "img": "https://i.ibb.co/Y4PWmBYv/Pet6.png",
+        "stock": 12,
+        "description": "<div class='maindesc'><p>Lunfa es un misterio con patas. Le gusta esconderse entre plantas, mirar por la ventana en días de lluvia y coleccionar piedritas. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    },
+    {
+        "id": 6,
+        "title": "Toto",
+        "price": 15300,
+        "oldprice": 18000,
+        "img": "https://i.ibb.co/JFQQfh6N/Pet4.png",
+        "stock": 2,
+        "description": "<div class='maindesc'><p>Toto no tolera el caos. Si pudiera, te doblaría la ropa mientras dormís. Ama los espacios chiquitos, simétricos y sin migas. Ideal para quienes encuentran calma en lo prolijo y el silencio. </p></div> <div class='characteristics mt-1'><p> <b>Tamaño:</b> 6 cm de alto x 4 cm de ancho</p> <p><b>Peso:</b> 10g </p><p><b>Material:</b> Lana acrílica fina, con relleno de vellón </p></div>"
+    }
+]

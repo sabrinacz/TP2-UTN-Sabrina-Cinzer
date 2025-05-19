@@ -1,0 +1,18 @@
+.counter-container-and-warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-input {
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+}

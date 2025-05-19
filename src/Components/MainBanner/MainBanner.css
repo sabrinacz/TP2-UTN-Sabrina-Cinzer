@@ -1,0 +1,105 @@
+.main-banner {
+  position: relative;
+  text-align: left;
+  width: 100vw;
+  overflow: hidden;
+  height: 900px;
+  max-height: 73vh;
+}
+
+.banner-img {
+  width: 100vw;
+  height: 900px;
+  max-height: 75vh;
+  object-fit: cover;
+  filter: brightness(0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.banner-img-mobile {
+  display: none;
+}
+
+.main-banner-title-overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-start;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1200px;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  text-align: left;
+  z-index: 2;
+}
+
+.main-banner-button {
+    width:fit-content;
+    cursor: pointer;
+}
+
+.main-banner-text {
+    max-width: 550px;
+    color:var(--background-color);
+}
+.main-banner-title {
+  pointer-events: none;
+  font-size: 5rem;
+  line-height: 100%;
+  color: var(--background-color); /* opcional para contraste */
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.main-banner-description{
+  font-size:1.25rem;
+  font-weight: 500;
+}
+.discount-message {
+  background: var(--promo-bg-color);
+  color: var(--promo-text-color);
+  padding:8px 12px;
+  transform: rotate(-20deg);
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .main-banner-title {
+    font-size: 4.5rem;
+  }
+  .main-banner-title-overlay {
+    padding:0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner-title {
+    font-size: 4rem;
+  }
+  .main-banner-title-overlay {
+    padding:0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner-title-overlay {
+    align-items: center;
+  }
+  .main-banner-title-overlay {
+  top: 25%;
+  text-align: center;
+ }
+ 
+  .banner-img-desktop {
+    display: none !important;
+  }
+  .banner-img-mobile {
+    display: block !important;
+  }
+}

@@ -1,0 +1,52 @@
+.informative-section-bg {
+    background: var(--secondary-bg-color);
+    color:var(--text-color);
+}
+
+/* No display: flex aquí */
+.informative-section-content {
+  overflow: visible;
+}
+
+.informative-bullet-title {
+    font-weight: 700;
+}
+
+.informative-icon {
+    font-size:2.2rem;
+    stroke-width: 0.5;
+    color:var(--tertiary-text-color);
+}
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cada slide centrado */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: auto;
+}
+
+.swiper-pagination-bullet-active {
+    background:var(--tertiary-text-color)!important;
+}
+
+/* Bullet */
+.informative-bullet {
+  min-width: 260px;
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px 24px 54px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+}
