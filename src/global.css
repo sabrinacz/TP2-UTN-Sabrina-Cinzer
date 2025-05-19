@@ -317,6 +317,10 @@ a.text-link {
   background: #fff6f6;
 }
 
+::placeholder {
+    opacity: 0.6;
+}
+
 .form-container {
     max-width: 500px;
     margin-left:auto;

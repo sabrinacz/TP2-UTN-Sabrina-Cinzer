@@ -26,7 +26,7 @@ const Footer = () => {
             <nav className="footer-nav">
               <NavLink to="/">Inicio</NavLink>
               <NavLink to="/products">Productos</NavLink>
-              <NavLink to="/about">Nosotros</NavLink>
+              <NavLink to="/about-us">Sobre nosotros</NavLink>
               <NavLink to="/contact">Contacto</NavLink>
             </nav>
           </div>
